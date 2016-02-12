@@ -1,0 +1,32 @@
+[
+  {
+    "FODT": "090457",
+    "PERS": "54321",
+    "INR": "09045754321",
+    "FODTAR": "1957",
+    "NAVN-S": "GRÅ",
+    "NAVN-F": "GUNHILD",
+    "NAVN-M": {},
+    "NAVN": "GRÅ GUNHILD",
+    "ADR": "SNIPPETSTADSTREDET 24",
+    "POSTN": "1732",
+    "POSTS": "HØTTEN",
+    "SPES-KD": "0",
+    "SPES": "VANLIG BOSATT"
+  },
+  {
+    "FODT": "230457",
+    "PERS": "67890",
+    "INR": "23045767890",
+    "FODTAR": "1957",
+    "NAVN-S": "GRÅ",
+    "NAVN-F": "GANDALF",
+    "NAVN-M": {},
+    "NAVN": "GRÅ GANDALF",
+    "ADR": "SNIPPETSTADSTREDET 24",
+    "POSTN": "1732",
+    "POSTS": "HØTTEN",
+    "SPES-KD": "0",
+    "SPES": "VANLIG BOSATT"
+  }
+]
