@@ -35,3 +35,12 @@ tap.test('It returns expected result', function (test) {
   tap.equal(JSON.stringify(result), JSON.stringify(expected), 'Parents unwrapped OK')
   test.done()
 })
+
+tap.test('It returns expected result', function (test) {
+  var dsf = require('./data/dsf-one-parent.json')
+  var expected = require('./data/unwrapped-parent.json')
+  var result = unwrapParents(dsf)
+  tap.equal(JSON.stringify(result), JSON.stringify(expected), 'One parent unwrapped OK')
+  test.done()
+})
+

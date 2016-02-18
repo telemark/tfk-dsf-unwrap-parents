@@ -1,0 +1,50 @@
+{
+  "RESULT": {
+    "HOV": {
+      "FODT": "261186",
+      "PERS": "12345",
+      "INR": "26118612345",
+      "FODTAR": "1986",
+      "STAT-KD": "1",
+      "STAT": "BOSATT",
+      "NAVN-S": "GRÅ",
+      "NAVN-F": "GEORG",
+      "NAVN-M": "GAFFEL",
+      "NAVN": "GRÅ GEORG GAFFEL",
+      "NAVN-D": "19861212",
+      "ADR": "SNIPPETSTADSTREDET 24",
+      "POSTN": "1732",
+      "POSTS": "HØTTEN",
+      "ADRTYPE": "O",
+      "SPES-KD": "0",
+      "SPES": "VANLIG BOSATT"
+    },
+    "FOR": {
+      "FODT": "090457",
+      "PERS": "54321",
+      "INR": "09045754321",
+      "FODTAR": "1957",
+      "STAT-KD": "1",
+      "STAT": "BOSATT",
+      "NAVN-S": "GRÅ",
+      "NAVN-F": "GUNHILD",
+      "NAVN-M": {},
+      "NAVN": "GRÅ GUNHILD",
+      "NAVN-D": "19831020",
+      "ADR": "SNIPPETSTADSTREDET 24",
+      "POSTN": "1732",
+      "POSTS": "HØTTEN",
+      "ADRTYPE": "O",
+      "SPES-KD": "0",
+      "SPES": "VANLIG BOSATT",
+      "Barn": [
+        {
+          "BAR-FODT": "261186",
+          "BAR-PERS": "12345",
+          "BAR-INR": "26118612345",
+          "BAR-KJO": "M"
+        }
+      ]
+    }
+  }
+}
