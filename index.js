@@ -6,15 +6,17 @@ function unwrapParents (dsf) {
   if (!dsf) {
     throw new Error('Missing required input: dsf object')
   }
-  if (dsf.RESULT && dsf.RESULT.FOR) {
-    var parents = []
-    dsf.RESULT.FOR.forEach(function (parent) {
-      parents.push(repackContact(parent))
-    })
-    return parents
-  } else {
+  if (!dsf.RESULT) {
     throw new Error('Malformed dsf object')
   }
+  var parents = dsf.RESULT.FOR || []
+  var foreldre = []
+
+  parents.forEach(function (parent) {
+    foreldre.push(repackContact(parent))
+  })
+
+  return foreldre
 }
 
 module.exports = unwrapParents

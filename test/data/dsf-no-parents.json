@@ -1,0 +1,23 @@
+{
+  "RESULT": {
+    "HOV": {
+      "FODT": "261186",
+      "PERS": "12345",
+      "INR": "26118612345",
+      "FODTAR": "1986",
+      "STAT-KD": "1",
+      "STAT": "BOSATT",
+      "NAVN-S": "GRÅ",
+      "NAVN-F": "GEORG",
+      "NAVN-M": "GAFFEL",
+      "NAVN": "GRÅ GEORG GAFFEL",
+      "NAVN-D": "19861212",
+      "ADR": "SNIPPETSTADSTREDET 24",
+      "POSTN": "1732",
+      "POSTS": "HØTTEN",
+      "ADRTYPE": "O",
+      "SPES-KD": "0",
+      "SPES": "VANLIG BOSATT"
+    }
+  }
+}

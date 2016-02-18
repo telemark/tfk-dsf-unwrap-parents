@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/telemark/tfk-dsf-unwrap-parents.svg?branch=master)](https://travis-ci.org/telemark/tfk-dsf-unwrap-parents)
 [![Coverage Status](https://coveralls.io/repos/telemark/tfk-dsf-unwrap-parents/badge.svg?branch=master&service=github)](https://coveralls.io/github/telemark/tfk-dsf-unwrap-parents?branch=master)
+[![Code Climate](https://codeclimate.com/github/telemark/tfk-dsf-unwrap-parents/badges/gpa.svg)](https://codeclimate.com/github/telemark/tfk-dsf-unwrap-parents)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 # tfk-dsf-unwrap-parents
 Unwrap parents from dsf results

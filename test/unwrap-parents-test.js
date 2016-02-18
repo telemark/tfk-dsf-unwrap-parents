@@ -20,6 +20,14 @@ tap.throws(
   'Throws if contact object is malformed'
 )
 
+tap.test('It returns empty array if no parents', function (test) {
+  var dsfNoParents = require('./data/dsf-no-parents.json')
+  var expected = []
+  var result = unwrapParents(dsfNoParents)
+  tap.equal(JSON.stringify(result), JSON.stringify(expected), 'Empty parentsarray OK')
+  test.done()
+})
+
 tap.test('It returns expected result', function (test) {
   var dsf = require('./data/dsf.json')
   var expected = require('./data/unwrapped-parents.json')
