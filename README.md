@@ -3,6 +3,8 @@
 [![Code Climate](https://codeclimate.com/github/telemark/tfk-dsf-unwrap-parents/badges/gpa.svg)](https://codeclimate.com/github/telemark/tfk-dsf-unwrap-parents)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 # tfk-dsf-unwrap-parents
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/tfk-dsf-unwrap-parents.svg)](https://greenkeeper.io/)
 Unwrap parents from dsf results
 
 ## Installation
