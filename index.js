@@ -1,8 +1,8 @@
 'use strict'
 
-var repackContact = require('./lib/repack-contact')
+const repackContact = require('./lib/repack-contact')
 
-function unwrapParents (dsf) {
+module.exports = dsf => {
   if (!dsf) {
     throw new Error('Missing required input: dsf object')
   }
@@ -10,18 +10,14 @@ function unwrapParents (dsf) {
     throw new Error('Malformed dsf object')
   }
 
-  var parents = dsf.RESULT.FOR || []
-  var foreldre = []
+  const parents = dsf.RESULT.FOR || []
+  let foreldre = []
 
   if (Array.isArray(parents)) {
-    parents.forEach(function (parent) {
-      foreldre.push(repackContact(parent))
-    })
+    foreldre = parents.map(forelder => repackContact(forelder))
   } else {
     foreldre.push(repackContact(parents))
   }
 
   return foreldre
 }
-
-module.exports = unwrapParents

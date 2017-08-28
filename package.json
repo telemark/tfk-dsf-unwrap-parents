@@ -1,6 +1,6 @@
 {
   "name": "tfk-dsf-unwrap-parents",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "description": "Unwraps parents information from dsf result",
   "license": "MIT",
   "author": {
@@ -10,13 +10,14 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=4.3.0"
+    "node": ">=4.8.4"
   },
   "scripts": {
     "test": "standard && tap --reporter=spec test/*.js",
     "coverage": "tap test/*.js --coverage",
     "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls",
-    "setup": "npm install && node setup.js"
+    "setup": "npm install",
+    "standard-fix": "standard --fix"
   },
   "keywords": [
     "Tfk",
@@ -27,14 +28,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/telemark/tfk-dsf-unwrap-parents.git"
+    "url": "https://github.com/telemark/tfk-dsf-unwrap-parents.git"
   },
   "bugs": {
-    "url": "http://github.com/telemark/tfk-dsf-unwrap-parents/issues"
+    "url": "https://github.com/telemark/tfk-dsf-unwrap-parents/issues"
   },
+  "homepage": "https://github.com/telemark/tfk-dsf-unwrap-parents",
   "devDependencies": {
-    "coveralls": "^2.11.6",
-    "standard": "^10.0.0-beta.0",
-    "tap": "^10.0.2"
+    "coveralls": "2.13.1",
+    "standard": "10.0.3",
+    "tap": "10.7.2"
   }
 }
