@@ -2,16 +2,18 @@
 [![Coverage Status](https://coveralls.io/repos/telemark/tfk-dsf-unwrap-parents/badge.svg?branch=master&service=github)](https://coveralls.io/github/telemark/tfk-dsf-unwrap-parents?branch=master)
 [![Code Climate](https://codeclimate.com/github/telemark/tfk-dsf-unwrap-parents/badges/gpa.svg)](https://codeclimate.com/github/telemark/tfk-dsf-unwrap-parents)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/tfk-dsf-unwrap-parents.svg)](https://greenkeeper.io/)
+
 # tfk-dsf-unwrap-parents
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/tfk-dsf-unwrap-parents.svg)](https://greenkeeper.io/)
 Unwrap parents from dsf results
 
 ## Installation
+
 From npm
 
 ```sh
-$ npm install tfk-dsf-unwrap-parents
+$ npm i tfk-dsf-unwrap-parents
 ```
 
 From GitHub
@@ -20,19 +22,13 @@ From GitHub
 $ git clone git@github.com:telemark/tfk-dsf-unwrap-parents.git
 ```
 
-cd into directory and run setup
-
-```sh
-$ npm run setup
-```
-
 ## Usage
 
-```javascript
+```JavaScript
 'use strict'
 
-var unwrapParents = require('tfk-dsf-unwrap-parents')
-var data = {
+const unwrapParents = require('tfk-dsf-unwrap-parents')
+const data = {
   'RESULT': {
     'HOV': {
       'FODT': '261186',
@@ -120,7 +116,7 @@ console.log(JSON.stringify(unwrapParents(data), null, 2))
 
 returns
 
-```javascript
+```JavaScript
 [
   {
     "FODT": "090457",
@@ -156,4 +152,7 @@ returns
 ```
 
 ## License
+
 [MIT](LICENSE)
+
+![Robohash image of tfk-dsf-unwrap-parents](https://robots.kebabstudios.party/tfk-dsf-unwrap-parents.png "Robohash image of tfk-dsf-unwrap-parents")
