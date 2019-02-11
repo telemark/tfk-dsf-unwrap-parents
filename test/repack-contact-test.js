@@ -7,7 +7,7 @@ tap.throws(
   function () {
     repackContact()
   },
-  {message: 'Missing required input: data object'},
+  { message: 'Missing required input: data object' },
   'Throws if data object not supplied'
 )
 

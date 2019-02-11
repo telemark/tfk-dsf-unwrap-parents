@@ -7,7 +7,7 @@ tap.throws(
   function () {
     unwrapParents()
   },
-  {message: 'Missing required input: dsf object'},
+  { message: 'Missing required input: dsf object' },
   'Throws if contact object not supplied'
 )
 
@@ -16,7 +16,7 @@ tap.throws(
     var malformed = require('./data/malformed.json')
     unwrapParents(malformed)
   },
-  {message: 'Malformed dsf object'},
+  { message: 'Malformed dsf object' },
   'Throws if contact object is malformed'
 )
 
