@@ -36,7 +36,7 @@
   },
   "homepage": "https://github.com/telemark/tfk-dsf-unwrap-parents",
   "devDependencies": {
-    "coveralls": "3.0.9",
+    "coveralls": "3.1.0",
     "standard": "14.3.3",
     "tap": "14.10.6"
   }
